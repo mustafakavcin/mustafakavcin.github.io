@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mustafa Kavçın — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scanlines"></div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">MK</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-left">
+      <p class="hero-label">&gt;_ INITIALIZING</p>
+      <h1 class="hero-name">MUSTAFA KAVÇIN</h1>
+      <p class="hero-typing"><span id="typed"></span><span class="cursor">|</span></p>
+      <p class="hero-tagline">AI &bull; Automation &bull; APIs &bull; Real-World Solutions</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="assets/cv.pdf" download class="btn btn-outline">Download CV</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="assets/aeternia-banner.jpg" alt="Aeternia" class="hero-image" />
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="section-header fade-in">
+      <span class="section-label">&gt;_ ABOUT</span>
+      <h2>About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-bio fade-in">
+        <p>Computer Programming student focused on AI applications, automation systems, and API integrations. I build things that connect intelligence to real-world workflows.</p>
+        <p>Currently exploring AI agent development, workflow automation, and real-time interactive systems.</p>
+      </div>
+      <div class="about-stack fade-in">
+        <p class="stack-label">TECH STACK</p>
+        <div class="badges">
+          <span class="badge">Node.js</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">Python</span>
+          <span class="badge">SQL</span>
+          <span class="badge">n8n</span>
+          <span class="badge">OpenAI API</span>
+          <span class="badge">REST APIs</span>
+          <span class="badge">Git</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="section-header fade-in">
+      <span class="section-label">&gt;_ PROJECTS</span>
+      <h2>Featured Work</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card fade-in">
+        <div class="card-header">
+          <span class="card-index">01</span>
+          <span class="card-status online">ACTIVE</span>
+        </div>
+        <h3 class="card-title">Aeternia Core</h3>
+        <p class="card-desc">Twitch AI avatar bot with dynamic mood engine, ElevenLabs TTS, XP-based rank system, and VSeeFace avatar control via OSC/VMC protocol.</p>
+        <div class="card-tags">
+          <span class="tag">Node.js</span>
+          <span class="tag">OpenAI</span>
+          <span class="tag">ElevenLabs</span>
+          <span class="tag">Twitch</span>
+        </div>
+        <a href="https://github.com/Vortexalpha123/aeternia-core" target="_blank" class="card-link">View on GitHub &rarr;</a>
+      </div>
+
+      <div class="project-card fade-in">
+        <div class="card-header">
+          <span class="card-index">02</span>
+          <span class="card-status online">ACTIVE</span>
+        </div>
+        <h3 class="card-title">n8n AI Automation</h3>
+        <p class="card-desc">AI-powered product data automation pipeline using n8n workflows, OpenAI for intelligent processing, and Google Sheets as the data layer.</p>
+        <div class="card-tags">
+          <span class="tag">n8n</span>
+          <span class="tag">OpenAI</span>
+          <span class="tag">Google Sheets</span>
+          <span class="tag">Automation</span>
+        </div>
+        <a href="https://github.com/Vortexalpha123" target="_blank" class="card-link">View on GitHub &rarr;</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="section-header fade-in">
+      <span class="section-label">&gt;_ CONTACT</span>
+      <h2>Get In Touch</h2>
+    </div>
+    <div class="contact-links fade-in">
+      <a href="https://www.linkedin.com/in/mustafa-kavcin-641a01255/" target="_blank" class="contact-btn">LinkedIn</a>
+      <a href="https://github.com/Vortexalpha123" target="_blank" class="contact-btn">GitHub</a>
+      <a href="mailto:mustafakavcin43@gmail.com" class="contact-btn">Email</a>
+    </div>
+    <div class="contact-cv fade-in">
+      <a href="assets/cv.pdf" download class="btn btn-primary">Download CV</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Mustafa Kavçın</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
